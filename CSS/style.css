@@ -1,0 +1,165 @@
+header{
+    background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
+    padding: 37px 0 24px 0;
+    text-align: center;
+}
+#menu{
+    padding: 20px 0;
+}
+#menu li{
+    font: 0.7em Tahoma, sans-serif;
+    color: #b7b7b7;
+    padding: 0px 8px 8px 8px;
+}
+#menu a{
+    display: block;
+    font: bold .9rem Georgia, serif;
+    color: #666666;
+    text-transform: uppercase;
+}
+#logo img{ 
+    max-width: 290px;
+    width: 28vw;
+}
+main{
+    background: url(../img/bg.jpg) repeat-x;
+    padding-top: 20px;
+}
+#slider{
+    background: url('../img/slider.jpg') center;
+    height: 340px;
+    border: 1px solid #c6c6c6;
+    border-radius: 8px;
+}
+h1{
+    font: bold 1.5em Georgia, serif;
+    color: #000000;
+    text-align: center;
+    padding: 25px 0 15px 0;
+}
+hr{
+    border: 0;
+    background-color: #e5e5e5;
+    height: 1px;
+}
+
+h2{
+    font: 1.3em Georgia, serif;
+    color: #11719e;
+}
+h6{
+    font: .75em Helvetica, sans-serif;
+    color: #8c8c8c;
+}
+.row{
+    padding: 20px 0;
+}
+.col{
+    padding: 10px;
+}
+.col img{
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background: #f3f3f3;
+    padding: 6px;
+    margin: 18px 0;
+}
+.col p{
+    font: .8em Helvetica, sans-serif;
+    color: #3e3e3e;
+}
+.btn{
+    text-align: left;
+    display: block;
+    padding: 10px 7px 10px 12px;
+    width: 163px ;
+    border-radius: 4px;
+    margin: 20px 0;
+    font: .75em Helvetica, sans-serif;
+
+}
+.btn1{    
+    border: 1px solid #d8d8d8;
+    color: #016999;
+    background: linear-gradient(to right, #e8e8e8, #f5f5f5, #e8e8e8, #e8e8e8);
+}
+.btn2{
+    border: 1px solid #004a80;
+    color: #f9fbfc;
+    background: linear-gradient(to right, #497db4, #4c84bc, #4a81b8, #497db4);
+}
+.btn span{
+    float: right;
+}
+.col h3{
+    font: 1.1em Georgia, serif;
+    color: #444444;
+}
+.col i{
+    font-size: 3.5em;
+}
+.fa-square-rss:hover{color: orange;}
+.fa-square-facebook:hover{color: darkblue;}
+.fa-linkedin:hover{color: lightblue;}
+.fa-square-youtube:hover{color: red;}
+.fa-square-tumblr:hover{color: blue;}
+.col h5{
+    font: bold 1.1em "Gill Sans";
+    color: #444444;
+    margin-top: 43px;
+}
+.dtt{
+    border: 1px dashed #d3d3d3;
+    margin-bottom: 16px;
+}
+input, textarea{
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 14px 0 10px 12px;
+    margin-bottom: 16px;
+}
+textarea{
+    height: 100px;
+}
+.newspht{
+    float: left;
+    max-width: 57px;
+    margin: 0  8px 0 0 !important;
+}
+.news{
+    overflow: auto;
+}
+footer{
+    height: 183px;
+    background: #333;
+    border-top: 10px solid #4c4c4c; 
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container{
+        max-width: 940px;
+        margin: auto;
+    }
+    header{
+        text-align: initial;
+    }
+    #menu{
+        float: right;
+    }
+    #menu li{
+        display: inline-block;
+        border-left: 1px dotted #d6d6d6;
+    }
+    .col{
+        max-width: 33.3%;
+        float: left;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}

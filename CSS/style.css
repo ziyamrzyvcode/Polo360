@@ -3,9 +3,7 @@ header{
     padding: 37px 0 24px 0;
     text-align: center;
 }
-#menu{
-    padding: 20px 0;
-}
+#menu{ padding: 20px 0 }
 #menu li{
     font: 0.7em Tahoma, sans-serif;
     color: #b7b7b7;
@@ -42,7 +40,6 @@ hr{
     background-color: #e5e5e5;
     height: 1px;
 }
-
 h2{
     font: 1.3em Georgia, serif;
     color: #11719e;
@@ -51,12 +48,8 @@ h6{
     font: .75em Helvetica, sans-serif;
     color: #8c8c8c;
 }
-.row{
-    padding: 20px 0;
-}
-.col{
-    padding: 10px;
-}
+.row{ padding: 20px 0 }
+.col{ padding: 10px }
 .col img{
     width: 100%;
     border: 1px solid #e1e1e1;
@@ -89,16 +82,12 @@ h6{
     color: #f9fbfc;
     background: linear-gradient(to right, #497db4, #4c84bc, #4a81b8, #497db4);
 }
-.btn span{
-    float: right;
-}
+.btn span{ float: right }
 .col h3{
     font: 1.1em Georgia, serif;
     color: #444444;
 }
-.col i{
-    font-size: 3.5em;
-}
+.col i{ font-size: 3.5em }
 .fa-square-rss:hover{color: orange;}
 .fa-square-facebook:hover{color: darkblue;}
 .fa-linkedin:hover{color: lightblue;}
@@ -120,35 +109,39 @@ input, textarea{
     padding: 14px 0 10px 12px;
     margin-bottom: 16px;
 }
-textarea{
-    height: 100px;
-}
+textarea{ height: 100px }
 .newspht{
     float: left;
     max-width: 57px;
     margin: 0  8px 0 0 !important;
 }
-.news{
-    overflow: auto;
-}
+.news{ overflow: auto }
 footer{
-    height: 183px;
     background: #333;
     border-top: 10px solid #4c4c4c; 
+    font: .7em "Helvetica" , sans-serif;
+    color: #999;
+    text-align: center;
 }
-
+#footer-menu{ margin: 20px 0 }
+#footer-menu li:first-child{
+    border: 0;
+    padding-left: 0;
+}
+#footer-menu li{
+    display: inline-block;
+    border-left: 1px solid #999;
+    padding: 0 5px;
+}
+#footer-menu a{ color: #999 }
 
 @media only screen and (min-width: 768px) {
     .container{
         max-width: 940px;
         margin: auto;
     }
-    header{
-        text-align: initial;
-    }
-    #menu{
-        float: right;
-    }
+    header{ text-align: initial }
+    #menu{ float: right }
     #menu li{
         display: inline-block;
         border-left: 1px dotted #d6d6d6;
@@ -162,4 +155,7 @@ footer{
         clear: both;
         display: table;
     }
+    footer{ text-align: initial }
+    #footer-info{ float: left }
+    #copyright{ float: right }
 }
